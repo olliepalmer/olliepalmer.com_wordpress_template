@@ -1,3 +1,13 @@
+# olliepalmer.com theme
+
+This is a child theme for my personal website, [olliepalmer.com](https://olliepalmer.com), built on top of Eddie Machado's excellent mobile-ready, modular [Bones](http://themble.com/bones) theme for Wordpress. My version was built in June 2015, and migrated to Github in September 2020.
+
+It's not perfect, there are a few things I would like to change when I have time, but for anyone curious or who wants to use the same layout, here's the site. :)
+
+More information about Bones here:
+
+
+
 # Bones
 A Lightweight Wordpress Development Theme
 
