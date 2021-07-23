@@ -1711,7 +1711,7 @@ POSTS & CONTENT STYLES
 .hentry header {
     border: none;
     padding: 1.5em;
-    border-top: 1px solid #ccc;
+/*     border-top: 1px solid #ccc; */
 }
 
 .hentry footer {
@@ -1736,7 +1736,7 @@ POSTS & CONTENT STYLES
 }
 
 .entry-title {
-  font-size: 1em;
+  font-size: 1.5em;
   text-align: left;
   padding: 0px;
 }
@@ -1752,8 +1752,8 @@ POSTS & CONTENT STYLES
 /* style by tag (i.e. tag-news) */
 /* post meta */
 .byline {
-    color: rgba(0, 0, 0, 0.8);
-    margin: 0;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0 2em;
 }
 
 /* entry content */
@@ -1906,7 +1906,7 @@ PAGE NAVI STYLES
     float: left;
     display: inline;
     overflow: hidden;
-    border-right: 1px solid #eaedf2;
+    border-right: 1px solid #e5e5e5;
 }
 
 .pagination a, .pagination span {
@@ -1915,15 +1915,14 @@ PAGE NAVI STYLES
     padding: 0;
     line-height: 1em;
     font-size: 1em;
-    font-weight: normal;
     padding: 0.75em;
     min-width: 1em;
     display: block;
-    color: #2980b9;
+    color: #ff0000;
 }
 
 .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus {
-    background-color: #2980b9;
+    background-color: #e5e5e5;
     color: white;
 }
 
@@ -1934,7 +1933,7 @@ PAGE NAVI STYLES
 
 .pagination .current:hover, .pagination .current:focus {
     background-color: white;
-    color: #5c6b80;
+    color: rgba(0,0,0,1);
 }
 
 /* end .bones_page_navi */
@@ -2634,3 +2633,8 @@ be set to display none.
     @-ms-keyframes rainbow {0% {color: rgba(255, 0, 0, 1)}50% {color: rgba(70, 0, 70, 1)}100% {color: rgba(255, 0, 0, 1)}}
     @-o-keyframes rainbow {0% {color: rgba(255, 0, 0, 1)}50% {color: rgba(70, 0, 70, 1)}100% {color: rgba(255, 0, 0, 1)}}
     @keyframes rainbow {0% {color: rgba(255, 0, 0, 1)}50% {color: rgba(70, 0, 70, 1)}100% {color: rgba(255, 0, 0, 1)}}
+
+
+.by, .author {
+    display: none;
+}
