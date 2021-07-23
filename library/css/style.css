@@ -323,11 +323,19 @@ menu {
     padding: 0 0 0 40px;
 }
 
-ol,
+ol {
+    padding: 0em;
+    list-style-type: "\2011";
+}
 ul {
     padding: 0;
     list-style-type: none;
-    font-size: 0.8em;
+    /* font-size: 0.8em; */
+}
+ol li {
+    /* top */
+    margin: 0em 0em 1em 0.5em;
+    padding: 0 0 0 1em;
 }
 
 /*
@@ -647,7 +655,7 @@ p {
         -ms-font-feature-settings: "liga", "dlig";
         -o-font-feature-settings: "liga", "dlig";
         font-feature-settings: "liga", "dlig";*/
-    font-size: 0.9em;
+    /* font-size: 0.9em; */
 }
 
 /******************************************************************
