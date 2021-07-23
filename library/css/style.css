@@ -1036,7 +1036,7 @@ them however you see fit.
         padding-right: 0.75em;
         width: 8.33%;
     }
-	
+
 	/* for dual-column content on portfolio pages */
 	.description, .workshops {
 		width: 60%;
@@ -1571,7 +1571,6 @@ H1, H2, H3, H4, H5 STYLES
 h1,
 .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
     text-rendering: optimizelegibility;
-    font-weight: 100;
     /*
                   if you're going to use webfonts, be sure to check your weights
                   http://css-tricks.com/watch-your-font-weight/
@@ -2159,18 +2158,18 @@ tweeners.
     /******************************************************************
                   Site Name:
                   Author:
-                  
+
                   Stylesheet: 481px and Up Stylesheet
-                  
+
                   This stylesheet is loaded for larger devices. It's set to
                   481px because at 480px it would load on a landscaped iPhone.
                   This isn't ideal because then you would be loading all those
                   extra styles on that same mobile connection.
-                  
+
                   A word of warning. This size COULD be a larger mobile device,
                   so you still want to keep it pretty light and simply expand
                   upon your base.scss styles.
-                  
+
                   ******************************************************************/
     /*
                   IMPORTANT NOTE ABOUT SASS 3.3 & UP
@@ -2254,15 +2253,15 @@ you can add resource intensive styles.
     /******************************************************************
                   Site Name:
                   Author:
-                  
+
                   Stylesheet: Tablet & Small Desktop Stylesheet
-                  
+
                   Here's where you can start getting into the good stuff.
                   This size will work on iPads, other tablets, and desktops.
                   So you can start working with more styles, background images,
                   and other resources. You'll also notice the grid starts to
                   come into play. Have fun!
-                  
+
                   ******************************************************************/
     /*********************
                   GENERAL STYLES
@@ -2306,7 +2305,7 @@ you can add resource intensive styles.
 
     .nav li a {
         display: inline-block;
-        border-bottom: 1px solid white;
+        border: none;
         /*
                                         you can use hover styles here even though this size
                                         has the possibility of being a mobile device.
@@ -2317,7 +2316,6 @@ you can add resource intensive styles.
         color: black;
         background-color: #f0f0f0;
         padding-bottom: 10px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.8);
     }
 
     .nav li ul.sub-menu,
@@ -2437,12 +2435,12 @@ you can add resource intensive styles.
     /******************************************************************
                   Site Name:
                   Author:
-                  
+
                   Stylesheet: Desktop Stylsheet
-                  
+
                   This is the desktop size. It's larger than an iPad so it will only
                   be seen on the Desktop.
-                  
+
                   ******************************************************************/
     .wrap {
         width: 1040px;
@@ -2455,14 +2453,14 @@ This is for the larger monitors and possibly full screen viewers.
 *********************/
 @media only screen and (min-width: 1240px) {
     /******************************************************************
-                  Site Name: 
-                  Author: 
-                  
+                  Site Name:
+                  Author:
+
                   Stylesheet: Super Large Monitor Stylesheet
-                  
+
                   You can add some advanced styles here if you like. This kicks in
                   on larger screens.
-                  
+
                   ******************************************************************/
 }
 
@@ -2474,44 +2472,44 @@ query for retina AND a certain size if you want. Go Nuts.
 *********************/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
     /******************************************************************
-                  Site Name: 
-                  Author: 
-                  
+                  Site Name:
+                  Author:
+
                   Stylesheet: Retina Screens & Devices Stylesheet
-                  
+
                   When handling retina screens you need to make adjustments, especially
                   if you're not using font icons. Here you can add them in one neat
                   place.
-                  
+
                   ******************************************************************/
-    /* 
-                  
-                  EXAMPLE 
+    /*
+
+                  EXAMPLE
                   Let's say you have an image and you need to make sure it looks ok
                   on retina screens. Let's say we have an icon which dimension are
                   24px x 24px. In your regular stylesheets, it would look something
                   like this:
-                  
+
                   .icon {
                     width: 24px;
                     height: 24px;
                     background: url(img/test.png) no-repeat;
                   }
-                  
+
                   For retina screens, we have to make some adjustments, so that image
                   doesn't look blurry. So, taking into account the image above and the
                   dimensions, this is what we would put in our retina stylesheet:
-                  
+
                   .icon {
                     background: url(img/test@2x.png) no-repeat;
                     background-size: 24px 24px;
                   }
-                  
-                  So, you would create the same icon, but at double the resolution, meaning 
+
+                  So, you would create the same icon, but at double the resolution, meaning
                   it would be 48px x 48px. You'd name it the same, but with a @2x at the end
                   (this is pretty standard practice). Set the background image so it matches
-                  the original dimensions and you are good to go. 
-                  
+                  the original dimensions and you are good to go.
+
                   */
 }
 
@@ -2525,13 +2523,13 @@ be set to display none.
     /******************************************************************
                   Site Name:
                   Author:
-                  
+
                   Stylesheet: Print Stylesheet
-                  
+
                   This is the print stylesheet. There's probably not a lot
                   of reasons to edit this stylesheet. If you want to
                   though, go for it.
-                  
+
                   ******************************************************************/
     * {
         background: transparent !important;
@@ -2607,4 +2605,3 @@ be set to display none.
 #centred {
     text-align: center;
 }
-
