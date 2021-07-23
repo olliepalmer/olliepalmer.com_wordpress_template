@@ -1727,7 +1727,7 @@ POSTS & CONTENT STYLES
 .entry-title {
   font-size: 1em;
   text-align: left;
-  padding: 0px;
+  padding: none;
 }
 
 /* want to style individual post classes? Booya! */
