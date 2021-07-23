@@ -1695,7 +1695,7 @@ POSTS & CONTENT STYLES
 .hentry {
     background-color: white;
     margin-bottom: 1.5em;
-    border-top: 1px solid #e8e8e8;
+    /* border-top: 1px solid #e8e8e8; */
 }
 
 .hentry header {
@@ -1715,13 +1715,19 @@ POSTS & CONTENT STYLES
 
 /* end .hentry */
 .single-title,
-.page-title,
-.entry-title {
+.page-title {
     margin: 0;
     font-size: 3em;
     letter-spacing: 0.3em;
     text-align: center;
     padding: 0.5em;
+}
+
+.entry-title {
+  margin: 0;
+  letter-spacing: 0.3em;
+  text-align: left;
+  padding: 0.5em;
 }
 
 /* want to style individual post classes? Booya! */
