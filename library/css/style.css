@@ -1554,7 +1554,7 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(255, 0, 0, 1);
     text-decoration: none;
     /* on hover */
     /* on click */
@@ -2621,3 +2621,15 @@ be set to display none.
 #centred {
     text-align: center;
 }
+
+    a:hover {
+        -webkit-animation: rainbow 0.1s infinite;
+        -ms-animation: rainbow 0.1s infinite;
+        -o-animation: rainbow 0.1s infinite;
+        animation: rainbow 0.1s infinite;
+        background: #e5e5e5;
+    }
+    @-webkit-keyframes rainbow {0% {color: rgba(255, 0, 0, 1)}50% {color: rgba(70, 0, 70, 1)}100% {color: rgba(255, 0, 0, 1)}}
+    @-ms-keyframes rainbow {0% {color: rgba(255, 0, 0, 1)}50% {color: rgba(70, 0, 70, 1)}100% {color: rgba(255, 0, 0, 1)}}
+    @-o-keyframes rainbow {0% {color: rgba(255, 0, 0, 1)}50% {color: rgba(70, 0, 70, 1)}100% {color: rgba(255, 0, 0, 1)}}
+    @keyframes rainbow {0% {color: rgba(255, 0, 0, 1)}50% {color: rgba(70, 0, 70, 1)}100% {color: rgba(255, 0, 0, 1)}}
