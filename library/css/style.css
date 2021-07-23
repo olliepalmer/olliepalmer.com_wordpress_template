@@ -1752,8 +1752,10 @@ POSTS & CONTENT STYLES
 /* style by tag (i.e. tag-news) */
 /* post meta */
 .byline {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.4);
     margin: 0 2em;
+    font-size: 0.8em;
+    text-align: right;
 }
 
 /* entry content */
@@ -2637,4 +2639,9 @@ be set to display none.
 
 .by, .author {
     display: none;
+}
+
+.post-date {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 0.8em;
 }
