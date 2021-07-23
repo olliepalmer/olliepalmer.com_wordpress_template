@@ -2343,12 +2343,12 @@ you can add resource intensive styles.
         border-right: 0;
         display: block;
         width: 180px;
-        border-bottom: 1px solid #ccc;
+        border-bottom: none;
     }
 
     .nav li ul.sub-menu li:last-child a,
     .nav li ul.children li:last-child a {
-        border-bottom: 0;
+        border-bottom: none;
     }
 
     .nav li ul.sub-menu li ul,
