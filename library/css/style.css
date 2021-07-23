@@ -1600,9 +1600,10 @@ h1, .h1 {
 }
 
 h2, .h2 {
-    font-size: 1.1em;
+    font-size: 1.2em;
     line-height: 1.5em;
     margin-bottom: 0.375em;
+    letter-spacing: 2px;
 }
 
 h3, .h3 {
