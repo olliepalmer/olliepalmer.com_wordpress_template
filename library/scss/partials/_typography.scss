@@ -49,7 +49,7 @@ I've edited it a bit, but it's a nice starting point.
 
 
 // font stacks
-$sans-serif:        "Proxima Nova", Helvetica, Arial, sans-serif;
+$sans-serif:        -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
 $serif:             "Georgia", Cambria, Times New Roman, Times, serif;
 
 /*
@@ -81,4 +81,3 @@ p {
   //     -o-font-feature-settings: "liga", "dlig";
   //        font-feature-settings: "liga", "dlig";
 }
-
