@@ -139,7 +139,7 @@ html {
  */
 body {
     margin: 0;
-    font-family: 'proxima-nova', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
     font-weight: 100;
 }
 
@@ -188,7 +188,7 @@ a:hover {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
-    font-family: 'proxima-nova', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
 }
 
 /**
@@ -1214,7 +1214,7 @@ textarea,
     border: 0;
     width: 100%;
     /* max-width: 400px; */
-    font-family: "proxima-nova", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
     font-weight: 100;
     background-color: #e8e8e8;
     -webkit-transition: background-color 0.24s ease-in-out;
