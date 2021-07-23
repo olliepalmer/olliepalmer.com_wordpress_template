@@ -37,9 +37,6 @@
 
 		<?php include_once("analyticstracking.php") // Google Analytics ?>
 
-		<script src="//use.typekit.net/kkx8qwq.js"></script><?php // adobe typekit code line 1 ?>
-		<script>try{Typekit.load();}catch(e){}</script>		<?php // adobe typekit code line 2 ?>
-
 	</head>
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
