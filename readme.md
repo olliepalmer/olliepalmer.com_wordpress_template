@@ -6,6 +6,8 @@ This repo is probably not useful to anyone except myself. I made the theme >5 ye
 
 Feel free to take this design and do something with it, if you can. Although, honestly, you're better off starting with the Bones theme and building your own, because mine is held together with gaffa tape and cable ties.
 
+One thing to note - Bones comes with Sass enabled; my template just uses old-fashioned CSS contained within [library/css/style.css](library/css/style.css) to change styles. Which means it can get a bit messy in places. I wish it were more truly 'cascading', but you can see that there are lots of classes which are just there to catch exceptions etc.
+
 ----
 
 Here's the original readme from Bones:

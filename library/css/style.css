@@ -2645,3 +2645,5 @@ be set to display none.
     color: rgba(0, 0, 0, 0.4);
     font-size: 0.8em;
 }
+
+.articleBody { text-align: left; }
