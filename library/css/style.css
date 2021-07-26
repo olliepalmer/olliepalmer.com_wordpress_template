@@ -93,6 +93,7 @@ video {
     -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
     page-break-inside: avoid; /* Firefox */
     break-inside: avoid; /* IE 10+ */
+    text-align: left;
 }
 
 .credits li {
@@ -2645,5 +2646,3 @@ be set to display none.
     color: rgba(0, 0, 0, 0.4);
     font-size: 0.8em;
 }
-
-.articleBody { text-align: left; }
