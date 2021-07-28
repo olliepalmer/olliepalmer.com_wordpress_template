@@ -1639,6 +1639,7 @@ h5, .h5 {
   justify-content: center;
   align-items: center;
   background-position:center;
+  text-align: center;
   background-size:cover;
   margin-bottom: 2em;
   height:300px;
