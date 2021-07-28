@@ -832,6 +832,9 @@ them however you see fit.
     folio_image {
         min-height: 300px;
     }
+    .home-title {
+      font-size:1em;
+    }
 }
 
 @media (min-width: 768px) {
@@ -840,6 +843,9 @@ them however you see fit.
     }
     folio_image {
         min-height: 400px;
+    }
+    .home-title {
+      font-size: 2em;
     }
 }
 
@@ -2736,4 +2742,11 @@ path {
     stroke-dashoffset: 0;
     stroke-width: 20;
   }
+}
+
+.home-title {
+  letter-spacing:2px
+  text-align:center;
+  line-height:400px;
+  color:#e8e8e8;
 }

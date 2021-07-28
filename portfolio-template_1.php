@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-/** 
+/**
 * Template name: Portfolio
 * Description: Page for displaying portfolio items
 *
@@ -21,7 +21,7 @@
      <a href="<?php the_permalink(); ?>">
      	<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
      	<div class="folio_image" style="height:400px;background:url('<?php echo $url?>'); background-position:center">
-     		<h1 style="text-align:center; line-height:400px;color:#e8e8e8;font-size:2em;letter-spacing:2px"><?php the_title(); ?></h1>
+     		<h1 class="home-title"><?php the_title(); ?></h1>
      	</div>
      </a>
  <?php endforeach; ?>
