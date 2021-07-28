@@ -2,7 +2,6 @@
 
 /*
 * Template Name: single_portfolio
-* Template Post Type: post
 */
 ?>
 
