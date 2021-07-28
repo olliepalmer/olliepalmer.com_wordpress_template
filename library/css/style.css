@@ -2717,7 +2717,7 @@ be set to display none.
 path {
   fill: none;
   stroke: #000;
-  stroke-width: 20;
+  stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
@@ -2735,43 +2735,43 @@ path {
 @-webkit-keyframes write1 {
   0% {
     stroke-dashoffset: 1000;
-    stroke-width: 60;
+    stroke-width: 6;
   }
   80% {
     stroke-dashoffset: 0;
-    stroke-width: 20;
+    stroke-width: 2;
   }
 }
 @keyframes write1 {
   0% {
     stroke-dashoffset: 1000;
-    stroke-width: 60;
+    stroke-width: 6;
   }
   80% {
     stroke-dashoffset: 0;
-    stroke-width: 20;
+    stroke-width: 2;
   }
 }
 @-webkit-keyframes write2 {
   0%,
   25% {
     stroke-dashoffset: 1000;
-    stroke-width: 60;
+    stroke-width: 6;
   }
   80% {
     stroke-dashoffset: 0;
-    stroke-width: 20;
+    stroke-width: 2;
   }
 }
 @keyframes write2 {
   0%,
   25% {
     stroke-dashoffset: 1000;
-    stroke-width: 60;
+    stroke-width: 6;
   }
   80% {
     stroke-dashoffset: 0;
-    stroke-width: 20;
+    stroke-width: 2;
   }
 }
 
