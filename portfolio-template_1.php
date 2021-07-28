@@ -2,7 +2,8 @@
 
 /**
 * Template name: Portfolio
-* Description: Page for displaying portfolio items.
+* Description: Page for displaying portfolio items
+* mildly updated for 2021
 *
 */
 ?>
@@ -14,15 +15,15 @@
 <main id="main" class="m-all t-3of3 d-7of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 <?php
            global $post;
-           $myposts = get_posts('numberposts=10&category_name=Featured Big');
+           $myposts = get_posts('numberposts=100&category_name=Featured Big');
            foreach($myposts as $post) :
            setup_postdata($post);
      ?>
      <a href="<?php the_permalink(); ?>">
-     	<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
-     	<div class="folio_image" style="background:url('<?php echo $url?>'); background-position:center; background-size:cover">
-     		<h1 style="text-align:center; line-height:400px;color:#e8e8e8;font-size:2em;letter-spacing:2px"><?php the_title(); ?></h1>
-     	</div>
+       <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+      	<div class="folio-image" style="background:url('<?php echo $url?>');background-size:cover">
+      		<h1 class="home-title"><?php the_title(); ?></h1>
+      	</div>
      </a>
  <?php endforeach; ?>
 </main>
