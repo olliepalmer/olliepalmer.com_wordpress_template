@@ -3,6 +3,7 @@
 /**
 * Template name: Portfolio
 * Description: Page for displaying portfolio items
+* mildly updated for 2021
 *
 */
 ?>
