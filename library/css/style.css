@@ -1633,7 +1633,7 @@ HEADER STYLES
 }
 
 #logo {
-    margin: 1em 0;
+    padding: 1em;
     text-align: center;
 }
 
@@ -2675,6 +2675,7 @@ be set to display none.
 
 #signature {
   max-width: 350px;
+  padding:1em;
 }
 path {
   fill: none;
