@@ -1639,6 +1639,12 @@ h5, .h5 {
   color:#e8e8e8;
 }
 
+.folio-image {
+  background-position:center;
+  background-size:cover;
+  justify-content: center;
+  align-items: center;
+}
 /*********************
 HEADER STYLES
 *********************/
