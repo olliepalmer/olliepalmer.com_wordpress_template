@@ -1,12 +1,11 @@
 <?php
-
 /*
-* Template Name: portfolio
-* Template Post Type: post, page, product
-*/
-?>
+ * Template Name: Portfolio
+ * Template Post Type: post, page, product
+ */
 
-<?php get header();  ?>
+ get_header();  ?>
+
 
 <p>here</p>
 
