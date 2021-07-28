@@ -6,10 +6,6 @@
 
  get_header();  ?>
 
-
-<p>here</p>
-
-
 			<div id="content">
 
 				<div id="inner-content" class="wrap cf">
