@@ -20,7 +20,7 @@
      ?>
      <a href="<?php the_permalink(); ?>">
      	<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
-     	<div class="folio_image" style="height:400px;background:url('<?php echo $url?>'); background-position:center">
+     	<div class="folio-image thisone" style="height:400px;background:url('<?php echo $url?>'); background-position:center">
      		<h1 class="home-title"><?php the_title(); ?></h1>
      	</div>
      </a>
