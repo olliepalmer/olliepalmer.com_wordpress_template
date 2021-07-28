@@ -1832,12 +1832,13 @@ POSTS & CONTENT STYLES
 }
 
 .entry-content blockquote {
-    margin: 0 0 0 1em;
+    margin: 0 0 0 0.5em;
     padding: 0 0 0 1em;
-    border-left: 1px solid rgba(255,0,0,1);
+    border-left: 1px dashed rgba(0,0,0,0.6);
     /* font-style: italic; */
-    color: rgba(255, 0, 0, 1);0, 0, 0.5);8;
+    color: rgba(0,0,0,0.6);.5);8;
 }
+
 
 .entry-content dd {
     margin-left: 0;
@@ -2753,4 +2754,8 @@ path {
     stroke-dashoffset: 0;
     stroke-width: 20;
   }
+}
+
+.caption {
+  text-align: center;
 }
