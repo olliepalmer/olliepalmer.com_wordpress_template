@@ -99,6 +99,14 @@ video {
 .credits li {
 	list-style: none;
 }
+.credits ul {
+    margin: 0 0 0 1em;
+    padding: 0 0 0 0;
+}
+.credits h3 {
+    padding: 0.5em 0 0 0;
+    margin: 0 0 0 0;
+}
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
@@ -332,8 +340,8 @@ ol {
     padding: 0em;
     list-style-type: "\2011";
 }
-ul {
-    padding: 0;
+ul {/* padding: 0; */
+    /* padding: 0; */
     list-style-type: none;
     /* font-size: 0.8em; */
 }
