@@ -829,7 +829,7 @@ them however you see fit.
         font-size: 0.8em;
         letter-spacing: 2px;
     }
-    folio_image {
+    folio-image {
         min-height: 300px;
     }
     .home-title {
@@ -841,7 +841,7 @@ them however you see fit.
     #lacarte {
         display: none;
     }
-    folio_image {
+    folio-image {
         min-height: 400px;
     }
     .home-title {
