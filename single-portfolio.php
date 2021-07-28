@@ -1,11 +1,13 @@
 <?php
 
 /*
-* Template Name: single_portfolio
+* Template Name: portfolio
 */
 ?>
 
 <?php get header();  ?>
+
+<p>here</p>
 
 
 			<div id="content">
