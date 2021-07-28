@@ -834,6 +834,7 @@ them however you see fit.
     }
     .home-title {
       font-size:1em;
+      line-height: 400px;
     }
 }
 
@@ -846,6 +847,7 @@ them however you see fit.
     }
     .home-title {
       font-size: 2em;
+      line-height: 400px;
     }
 }
 
@@ -1633,7 +1635,7 @@ h5, .h5 {
 .home-title {
   text-align:center;
   letter-spacing:2px
-  line-height:400px;
+  line-height: 400px;
   color:#e8e8e8;
 }
 
