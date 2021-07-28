@@ -2646,3 +2646,93 @@ be set to display none.
     color: rgba(0, 0, 0, 0.4);
     font-size: 0.8em;
 }
+
+#logo {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  #logo {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  #logo {
+    max-width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  #logo {
+    max-width: 1050px;
+  }
+}
+@media (min-width: 1500px) {
+  #logo {
+    max-width: 1200px;
+  }
+}
+
+#signature {
+  max-width: 350px;
+}
+path {
+  fill: none;
+  stroke: #000;
+  stroke-width: 20;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.line1 {
+  stroke-dasharray: 1000;
+  -webkit-animation: write1 5s ease;
+  animation: write1 5s ease;
+}
+.line2 {
+  stroke-dasharray: 1000;
+  -webkit-animation: write2 5s ease;
+  animation: write2 5s ease;
+}
+@-webkit-keyframes write1 {
+  0% {
+    stroke-dashoffset: 1000;
+    stroke-width: 60;
+  }
+  80% {
+    stroke-dashoffset: 0;
+    stroke-width: 20;
+  }
+}
+@keyframes write1 {
+  0% {
+    stroke-dashoffset: 1000;
+    stroke-width: 60;
+  }
+  80% {
+    stroke-dashoffset: 0;
+    stroke-width: 20;
+  }
+}
+@-webkit-keyframes write2 {
+  0%,
+  25% {
+    stroke-dashoffset: 1000;
+    stroke-width: 60;
+  }
+  80% {
+    stroke-dashoffset: 0;
+    stroke-width: 20;
+  }
+}
+@keyframes write2 {
+  0%,
+  25% {
+    stroke-dashoffset: 1000;
+    stroke-width: 60;
+  }
+  80% {
+    stroke-dashoffset: 0;
+    stroke-width: 20;
+  }
+}
