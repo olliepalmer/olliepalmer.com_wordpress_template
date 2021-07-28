@@ -833,7 +833,7 @@ them however you see fit.
         min-height: 300px;
     }
     .home-title {
-      font-size:1.5em;
+      font-size:2em;
     }
 }
 
@@ -1636,6 +1636,7 @@ h5, .h5 {
   align-items: center;
   background-position:center;
   background-size:cover;
+  margin-bottom: 2em;
 }
 
 .home-title {
