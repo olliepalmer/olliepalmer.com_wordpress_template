@@ -1630,19 +1630,19 @@ h5, .h5 {
     letter-spacing: 2px;
 }
 
+.folio-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position:center;
+  background-size:cover;
+}
+
 .home-title {
-  text-align:center;
   letter-spacing:0.2em;
   color:#e8e8e8;
 }
 
-.folio-image {
-  display: flex;
-  background-position:center;
-  background-size:cover;
-  justify-content: center;
-  align-items: center;
-}
 /*********************
 HEADER STYLES
 *********************/
