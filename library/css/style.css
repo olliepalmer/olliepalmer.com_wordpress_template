@@ -205,7 +205,11 @@ abbr[title] {
 b,
 strong,
 .strong {
-    font-weight: bold;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 1px dotted #888;
+  color: #888;
+
 }
 
 /**
