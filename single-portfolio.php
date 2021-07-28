@@ -4,8 +4,9 @@
 * Template Name: single_portfolio
 * Template Post Type: post
 */
+?>
 
-get header();  ?>
+<?php get header();  ?>
 
 
 			<div id="content">
