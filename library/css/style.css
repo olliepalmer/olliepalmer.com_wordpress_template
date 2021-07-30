@@ -1695,6 +1695,7 @@ and more scalable.
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
+    padding: 0;
     /* end .menu li */
     /* highlight current page */
     /* end current highlighters */
@@ -2689,10 +2690,19 @@ be set to display none.
   padding-right: 15px;
   margin: auto;
 }
+#signature {
+  max-width: 250px;
+  padding: 1em;
+}
 @media (min-width: 768px) {
   #logo {
     max-width: 720px;
   }
+  #signature {
+    max-width: 300px;
+    padding:1em;
+  }
+
 }
 @media (min-width: 992px) {
   #logo {
@@ -2710,10 +2720,6 @@ be set to display none.
   }
 }
 
-#signature {
-  max-width: 350px;
-  padding:1em;
-}
 path {
   fill: none;
   stroke: #000;
