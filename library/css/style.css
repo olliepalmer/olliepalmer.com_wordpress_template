@@ -2722,64 +2722,60 @@ be set to display none.
 
 path {
   fill: none;
-  stroke: #000;
-  stroke-width: 2;
+  stroke: #888;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
 }
-.line1 {
+.line1, .line2 {
   stroke-dasharray: 1000;
-  -webkit-animation: write1 5s ease;
-  animation: write1 5s ease;
+  stroke-dashoffset: 490;
+  stroke-width: 10;
+}
+.line1 {
+  -webkit-animation: write1 2s ease;
+  animation: write1 2s ease;
 }
 .line2 {
-  stroke-dasharray: 1000;
-  -webkit-animation: write2 5s ease;
-  animation: write2 5s ease;
+  -webkit-animation: write2 2s ease;
+  animation: write2 2s ease;
 }
 @-webkit-keyframes write1 {
   0% {
     stroke-dashoffset: 1000;
-    stroke-width: 6;
   }
-  80% {
-    stroke-dashoffset: 0;
-    stroke-width: 2;
+  80%,100% {
+    stroke-dashoffset: 490;
   }
 }
 @keyframes write1 {
   0% {
     stroke-dashoffset: 1000;
-    stroke-width: 6;
   }
-  80% {
-    stroke-dashoffset: 0;
-    stroke-width: 2;
+  60%,100% {
+    stroke-dashoffset: 490;
   }
 }
 @-webkit-keyframes write2 {
   0%,
-  25% {
+  40% {
     stroke-dashoffset: 1000;
-    stroke-width: 6;
   }
-  80% {
-    stroke-dashoffset: 0;
-    stroke-width: 2;
+  60%,100% {
+    stroke-dashoffset: 500;
   }
 }
 @keyframes write2 {
   0%,
-  25% {
+  40% {
     stroke-dashoffset: 1000;
-    stroke-width: 6;
   }
-  80% {
-    stroke-dashoffset: 0;
-    stroke-width: 2;
+  80%,100% {
+    stroke-dashoffset: 500;
   }
 }
+
+
 
 .caption {
   text-align: center;
