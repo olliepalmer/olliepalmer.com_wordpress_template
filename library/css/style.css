@@ -1574,14 +1574,14 @@ LINK STYLES
 *********************/
 a, a:visited {
     color: rgba(0,0,0,0.8);
-    text-decoration: none;
+    text-decoration: none;border-bottom: 1px solid #e5e5e5;
     /* on hover */
     /* on click */
     /* mobile tap color */
 }
 
 a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: black;
+    color: rgba(0,0,0,0.8);
 }
 
 a:link, a:visited:link {
@@ -1590,7 +1590,8 @@ a:link, a:visited:link {
                     so it basically works like the :hover selector
                     for mobile devices.
                     */
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);/* background: rgba(250, 250, 250, 0.55); */border-bottom: 1px solid #e5e5e5;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid #e5e5e5;
 }
 
 /******************************************************************
@@ -1633,7 +1634,7 @@ h3, .h3 {
 h4, .h4 {
     font-size: 1.1em;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 2px;font-weight: 300;
 }
 
 h5, .h5 {
