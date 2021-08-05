@@ -1573,7 +1573,7 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-    color: rgba(255, 0, 0, 1);
+    color: rgba(0,0,0,0.8);
     text-decoration: none;
     /* on hover */
     /* on click */
@@ -1590,7 +1590,7 @@ a:link, a:visited:link {
                     so it basically works like the :hover selector
                     for mobile devices.
                     */
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);/* background: rgba(250, 250, 250, 0.55); */border-bottom: 1px solid #e5e5e5;
 }
 
 /******************************************************************
@@ -2673,16 +2673,16 @@ be set to display none.
 }
 
     a:hover {
-        -webkit-animation: rainbow 0.1s infinite;
-        -ms-animation: rainbow 0.1s infinite;
-        -o-animation: rainbow 0.1s infinite;
-        animation: rainbow 0.1s infinite;
+/*         -webkit-animation: rainbow 1s infinite;
+        -ms-animation: rainbow 1s infinite;
+        -o-animation: rainbow 1s infinite;
+        animation: rainbow 1s infinite; */
         background: #e5e5e5;
-    }
-    @-webkit-keyframes rainbow {0% {color: rgba(255, 0, 0, 1)}50% {color: rgba(70, 0, 70, 1)}100% {color: rgba(255, 0, 0, 1)}}
-    @-ms-keyframes rainbow {0% {color: rgba(255, 0, 0, 1)}50% {color: rgba(70, 0, 70, 1)}100% {color: rgba(255, 0, 0, 1)}}
-    @-o-keyframes rainbow {0% {color: rgba(255, 0, 0, 1)}50% {color: rgba(70, 0, 70, 1)}100% {color: rgba(255, 0, 0, 1)}}
-    @keyframes rainbow {0% {color: rgba(255, 0, 0, 1)}50% {color: rgba(70, 0, 70, 1)}100% {color: rgba(255, 0, 0, 1)}}
+        /* color: grey; *//* border-bottom: white; */}
+    @-webkit-keyframes rainbow {0% {color: #ff0054}50% {color: #9e0059}100% {color: #390099}}
+    @-ms-keyframes rainbow {0% {color: #ff0054}50% {color: #9e0059}100% {color: #390099}}
+    @-o-keyframes rainbow {0% {color: #ff0054}50% {color: #9e0059}100% {color: #390099}}
+    @keyframes rainbow {0% {color: #ff0054}50% {color: #9e0059}100% {color: #390099}}
 
 
 .by, .author {
