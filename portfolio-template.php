@@ -26,6 +26,7 @@
       	</div>
      </a>
  <?php endforeach; ?>
+ 
 </main>
 </div><!--/inner-content-->
 </div><!--/content-->
