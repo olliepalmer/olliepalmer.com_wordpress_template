@@ -1067,14 +1067,15 @@ them however you see fit.
 
 	/* for dual-column content on portfolio pages */
 	.description, .workshops {
-		width: 62%;
+		width: 60%;
 		float: left;
 	}
 	.exhibition, .press, .credits {
 		width: 35%;
 		float: right;
 		/* border-left: 1px solid #eee; */
-		padding-left: 2em;/* color: rgba(0,0,0,0.5); */}
+		padding-left: 2em;
+	}
 }
 
 /*********************
@@ -1518,7 +1519,7 @@ body {
     line-height: 1.5em;
     color: rgba(0, 0, 0, 0.8);
     background-color: white;
-    -webkit-font-smoothing: antialiased;letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;letter-spacing: 0.02em;
 }
 
 /********************
@@ -1595,15 +1596,15 @@ a:link, a:visited:link {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-    text-rendering: optimizelegibility;font-weight: 300;/* font-size: 2em; */
-
+h1,
+.h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+    text-rendering: optimizelegibility;
+    font-weight: 300;text-transform: uppercase;
     /*
                   if you're going to use webfonts, be sure to check your weights
                   http://css-tricks.com/watch-your-font-weight/
                   */
     /* removing text decoration from all headline links */
-    text-transform: uppercase;
 }
 
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
@@ -1618,10 +1619,11 @@ h1, .h1 {
 }
 
 h2, .h2 {
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.5em;
-    margin-bottom: 2em;
-    letter-spacing: 2px;padding-bottom: 1em;border-bottom: 1px solid #eee;border-botlid black;
+    margin-bottom: 1.5em;
+    padding-bottom: 1em;
+    letter-spacing: 2px;border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 h3, .h3 {
@@ -1766,9 +1768,9 @@ POSTS & CONTENT STYLES
 .entry-title {
     margin: 0;
     font-size: 3em;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.3em;
     text-align: center;
-    padding: 0.5em;text-transform: uppercase;
+    padding: 0.5em;
 }
 
 .entry-title {
@@ -1851,11 +1853,11 @@ POSTS & CONTENT STYLES
 }
 
 .entry-content blockquote {
-    margin: 1em 0 1em 0.5em;
-    padding: 0 0 0 1em;
-    border-left: 1px dotted rgba(0,0,0,0.5);
+    margin: 1em 1em 1em 1.5em;
+    padding: 0 0 0 1.5em;
+    border-left: 1px solid rgba(0,0,0,0.1);
     /* font-style: italic; */
-    color: rgba(0,0,0,0.5);.5);8;
+    .5);8;
 }
 
 
