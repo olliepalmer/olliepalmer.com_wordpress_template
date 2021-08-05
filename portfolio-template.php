@@ -21,7 +21,7 @@
      ?>
      <a href="<?php the_permalink(); ?>">
        <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
-      	<div class="folio-image" style="background:url('<?php echo $url?>');background-size:cover">
+      	<div class="folio-image" style="background:url('<?php echo $url?>');background-size:cover;background-position:center">
       		<h1 class="home-title"><?php the_title(); ?></h1>
       	</div>
      </a>
