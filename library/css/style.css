@@ -1067,15 +1067,14 @@ them however you see fit.
 
 	/* for dual-column content on portfolio pages */
 	.description, .workshops {
-		width: 60%;
+		width: 62%;
 		float: left;
 	}
 	.exhibition, .press, .credits {
 		width: 35%;
 		float: right;
-		border-left: 1px solid #eee;
-		padding-left: 2em;
-	}
+		/* border-left: 1px solid #eee; */
+		padding-left: 2em;/* color: rgba(0,0,0,0.5); */}
 }
 
 /*********************
@@ -1516,10 +1515,10 @@ GENERAL STYLES
 *********************/
 body {
     font-size: 100%;
-    line-height: 1.5;
+    line-height: 1.5em;
     color: rgba(0, 0, 0, 0.8);
     background-color: white;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;letter-spacing: 0.03em;
 }
 
 /********************
@@ -1596,15 +1595,15 @@ a:link, a:visited:link {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-h1,
-.h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-    text-rendering: optimizelegibility;
-    font-weight: 300;
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+    text-rendering: optimizelegibility;font-weight: 300;/* font-size: 2em; */
+
     /*
                   if you're going to use webfonts, be sure to check your weights
                   http://css-tricks.com/watch-your-font-weight/
                   */
     /* removing text decoration from all headline links */
+    text-transform: uppercase;
 }
 
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
@@ -1619,10 +1618,10 @@ h1, .h1 {
 }
 
 h2, .h2 {
-    font-size: 1.2em;
+    font-size: 1.5em;
     line-height: 1.5em;
-    margin-bottom: 0.375em;
-    letter-spacing: 2px;
+    margin-bottom: 2em;
+    letter-spacing: 2px;padding-bottom: 1em;border-bottom: 1px solid #eee;border-botlid black;
 }
 
 h3, .h3 {
@@ -1767,9 +1766,9 @@ POSTS & CONTENT STYLES
 .entry-title {
     margin: 0;
     font-size: 3em;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
     text-align: center;
-    padding: 0.5em;
+    padding: 0.5em;text-transform: uppercase;
 }
 
 .entry-title {
@@ -1852,11 +1851,11 @@ POSTS & CONTENT STYLES
 }
 
 .entry-content blockquote {
-    margin: 0 0 0 0.5em;
+    margin: 1em 0 1em 0.5em;
     padding: 0 0 0 1em;
-    border-left: 1px dashed rgba(0,0,0,0.6);
+    border-left: 1px dotted rgba(0,0,0,0.5);
     /* font-style: italic; */
-    color: rgba(0,0,0,0.6);.5);8;
+    color: rgba(0,0,0,0.5);.5);8;
 }
 
 
