@@ -1657,6 +1657,7 @@ h5, .h5 {
 .home-title {
   letter-spacing:0.2em;
   color:#e8e8e8;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 /*********************
