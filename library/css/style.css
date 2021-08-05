@@ -1780,6 +1780,13 @@ POSTS & CONTENT STYLES
   padding: 0px;
 }
 
+
+.entry-title a {
+    color:black;
+}
+.entry-title a:hover {
+    animation: none;
+}
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
 /* general post style */
