@@ -1769,7 +1769,7 @@ POSTS & CONTENT STYLES
 .page-title,
 .entry-title {
     margin: 0;
-    font-size: 3em;
+    font-size: 2em;
     letter-spacing: 0.3em;
     text-align: center;
     padding: 0.5em;
@@ -1806,15 +1806,6 @@ POSTS & CONTENT STYLES
 }
 
 /* entry content */
-.entry-content {
-    padding-left: 1.5em;margin-left: 2em;padding-top: 0;
-    /*
-                  image alignment on a screen this size may be
-                  a bit difficult. It's set to start aligning
-                  and floating images at the next breakpoint,
-                  but it's up to you. Feel free to change it up.
-                  */
-}
 
 .entry-content p {
     margin: 0 0 1.5em;
@@ -2317,6 +2308,31 @@ in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 *********************/
 @media only screen and (min-width: 768px) {
+    .entry-content {
+    padding-left: 1.5em;
+    margin-left: 2em;
+    padding-top: 0;
+    /*
+                  image alignment on a screen this size may be
+                  a bit difficult. It's set to start aligning
+                  and floating images at the next breakpoint,
+                  but it's up to you. Feel free to change it up.
+                  */
+}
+
+    .single-title,
+.page-title,
+.entry-title {
+    margin: 0;
+    font-size: 3em;
+    letter-spacing: 0.3em;
+    text-align: center;
+    padding: 0.5em;
+}
+
+
+
+
     /******************************************************************
                   Site Name:
                   Author:
