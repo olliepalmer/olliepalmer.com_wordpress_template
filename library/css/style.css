@@ -1624,7 +1624,8 @@ h2, .h2 {
     line-height: 1.5em;
     margin-bottom: 1.5em;
     padding-bottom: 1em;
-    letter-spacing: 2px;border-bottom: 1px solid rgba(0,0,0,0.1);
+    letter-spacing: 2px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 h3, .h3 {
