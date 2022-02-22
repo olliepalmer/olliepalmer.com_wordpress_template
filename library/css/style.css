@@ -1776,6 +1776,11 @@ POSTS & CONTENT STYLES
     padding: 0.5em;
 }
 
+.lefty {
+    font-size: 2em;
+    text-align: left;
+}
+
 .entry-title {
   font-size: 1.5em;
   text-align: left;
