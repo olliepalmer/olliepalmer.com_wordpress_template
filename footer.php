@@ -18,7 +18,8 @@
 						)); ?>
 					</nav>
 
-					<p class="source-org copyright">All content &copy; Ollie Palmer 2005 - <?php echo date('Y'); ?><br>Except where noted.</p>
+					<p class="source-org copyright">All content &copy; Ollie Palmer 2005 - <?php echo date('Y'); ?>, except where noted.</p>
+					<p class="source-org copyright">Registered in the Netherlands; KvK 72127562</p>
 
 				</div>
 
