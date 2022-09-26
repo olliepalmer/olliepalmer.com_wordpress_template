@@ -1,7 +1,7 @@
 <?php
 
 /**
-* Template name: Portfolio
+* Template name: Portfolio, updated
 * Description: Page for displaying portfolio items
 * mildly updated for 2021
 *
