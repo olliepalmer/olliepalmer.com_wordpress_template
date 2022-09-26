@@ -26,7 +26,8 @@
       	</div>
      </a>
  <?php endforeach; ?>
- 
+ <p>this is text, right here</p>
+
 </main>
 </div><!--/inner-content-->
 </div><!--/content-->
