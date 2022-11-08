@@ -1,8 +1,8 @@
 # olliepalmer.com Wordpress Theme
 
-This is a Wordpress theme for my personal website, [olliepalmer.com](https://olliepalmer.com). It's built on [Bones](), an excellent development theme from Eddie Machado (repo available [here](https://github.com/squibbleFish/theme-bones)).
+This is a Wordpress theme for my personal website, [olliepalmer.com](https://olliepalmer.com). It's built on [Bones](https://github.com/squibbleFish/theme-bones), a development theme from Eddie Machado which seems to have fallen into disrepair (the repo hasn't been updated since about 2018; see [here](https://github.com/squibbleFish/theme-bones)).
 
-This repo is probably not useful to anyone except myself. I made the theme >5 years ago, quite patchily, and haven't made any significant changes since then. However, in wanting to add minor updates to the site, I questioned why I was still using a dodgy development pipeline with FTP and dragging-and-dropping, when everything else seems to work quite well via Github these days. So, here we are, version 5.2 of the theme, in which I make and test changes locally, push them to Github and automatically pull them to my website. Almost how it should have been done all along.
+This repo is probably not useful to anyone except myself. I modified the theme >5 years ago, quite patchily, and haven't made any significant changes since then. However, in wanting to add minor updates to the site, I questioned why I was still using a dodgy development pipeline with FTP and dragging-and-dropping, when everything else seems to work quite well via Github these days. So, here we are, version 5.2 of the theme, in which I make and test changes locally, push them to Github and automatically pull them to my website. Almost how it should have been done all along.
 
 Feel free to take this design and do something with it, if you can. Although, honestly, you're better off starting with the Bones theme and building your own, because mine is held together with gaffa tape and cable ties.
 
